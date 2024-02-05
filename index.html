@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__container">
+        <nav>
+          <ul class="sidebar">
+            <li class="hide" onclick=closeSidevar()><a href="#" class="hide"><svg class="hide"
+                  xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                  <path
+                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                </svg></a></li>
+            <li><a href="">ИНФОРМАЦИЯ</a></li>
+            <li><a href="">НОВОСТИ</a></li>
+            <li><a href="">ПРАЙС-ЛИСТ</a></li>
+            <li><a href="">МАГАЗИН</a></li>
+            <li><a href="">КОНТАКТЫ</a></li>
+          </ul>
+          <ul>
+            <li class="hideOnMobile"><a href="">ИНФОРМАЦИЯ</a></li>
+            <li class="hideOnMobile"><a href="">НОВОСТИ</a></li>
+            <li class="hideOnMobile"><a href="">ПРАЙС-ЛИСТ</a></li>
+            <li class="hideOnMobile"><a href="">МАГАЗИН</a></li>
+            <li class="hideOnMobile"><a href="">КОНТАКТЫ</a></li>
+            <li class="open" onclick=showSidebar() <a href="#" class="open"><svg class="open"
+                xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+              </svg></a>
+          </ul>
+        </nav>
+        <div class="entrance">
+          <img src="img/login.png" alt="login">
+          <a href="index.html" class="entrance__text">ВХОД</a>
+        </div>
+      </div>
+
+    </header>
+    <main class="main">
+      <div class="advantages">
+        <div class="advantages__container">
+          <img src="img/index-logo.png" alt="index-logo">
+          <div class="advantages__list">
+            <div class="advantages__card card">
+              <div class="card__title">БЫСТРО</div>
+              <div class="square"></div>
+              <div class="card__text">МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ
+                ОБЛАДАТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</div>
+
+            </div>
+            <div class="advantages__card card">
+              <div class="card__title">КРУТО</div>
+              <div class="square"></div>
+              <div class="card__text">ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО
+                ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</div>
+
+            </div>
+            <div class="advantages__card card">
+              <div class="card__title">ДОРОГО</div>
+              <div class="square"></div>
+              <div class="card__text">НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ,
+                РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+      <section class="news-gallery">
+        <div class="news-gallery__container">
+          <div class="news-gallery__body">
+            <div class="news-gallery__news news">
+              <div class="news__title">НОВОСТИ</div>
+              <div class="news__text">НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ
+                СТРИЖКИ
+                <br>
+                11 января
+                <br><br>
+                В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДAТЕЛЬ МНОЖЕСТВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ
+                НАШИ СТРОЙНЫЕ РЯДЫ
+                <br>
+                18 января
+              </div>
+              <button class="news__button">ВСЕ НОВОСТИ</button>
+
+            </div>
+            <div class="news-gallery__gallery gallery">
+              <div class="gallery__title">ФОТОГАЛЕРЕЯ</div>
+              <img src="img/foto.png" alt="">
+              <div class="gallery__buttons">
+                <button class="gallery__button">НАЗАД</button>
+                <button class="gallery__button">ВПЕРЕД</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+      <section class="contact-sign-up">
+        <div class="contact-sign-up__container">
+          <div class="contact-sign-up__body">
+            <div class="contact-sign-up__contact contact">
+              <div class="contact__title">КОНТАКТНАЯ ИНФОРМАЦИЯ</div>
+              <div class="contact__text">БАРБЕРШОП «БОРОДИНСКИЙ»
+                <br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 ТЕЛЕФОН: +7 (495) 666-02-66
+                <br><br>
+                ВРЕМЯ РАБОТЫ:
+                <br>ПН—ПТ: С 10:00 ДО 22:00
+                <br>СБ—ВС: С 10:00 ДО 19:00
+              </div>
+              <div class="contact__buttons">
+                <button class="contact__button">КАК ПРОЕХАТЬ</button>
+                <button class="contact__button">ОБРАТНАЯ СВЯЗЬ</button>
+              </div>
+
+            </div>
+            <div class="contact-sign-up__sign-up sign-up">
+              <div class="sign-up__title">ЗАПИСАТЬСЯ</div>
+              <div class="sign-up__text">УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+              </div>
+              <form action="">
+                <div class="form__item">
+                  <label for="">ДАТА</label>
+                  <input class="date" type="date" value="2017-10-08">
+                </div>
+                <div class="form__item">
+                  <label for="">ВРЕМЯ</label>
+                  <input class="time" type="time" value="10:00">
+                </div>
+                <div class="form__item">
+                  <label for="">ВАШЕ ИМЯ</label>
+                  <input type="text" placeholder="Борода">
+                </div>
+                <div class="form__item">
+                  <label for="">ТЕЛЕФОН</label>
+                  <input type="number" placeholder="+7 123 456-78-90">
+                </div>
+              </form>
+              <button class="sign-up__button">ОТПРАВИТЬ</button>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__body">
+          <div class="footer__left">БАРБЕРШОП «БОРОДИНСКИЙ»
+            <br>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8 <br>КАК
+            НАС НАЙТИ? <br>ТЕЛЕФОН: +7 (495) 666-02-66
+          </div>
+          <div class="footer__social social">
+            <div class="social__title">ДАВАЙТЕ ДРУЖИТЬ!</div>
+            <div class="social__img">
+              <img src="img/vk.png" alt="vk">
+              <img src="img/facebook.png" alt="facebook">
+              <img src="img/instagram.png" alt="instagram">
+            </div>
+
+          </div>
+          <div class="footer__right">
+            <div class="right__text">РАЗРАБОТАНО</div>
+            <div class="bg">html academy</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <script>
+      function showSidebar() {
+        const sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex'
+      }
+      function closeSidevar() {
+        const sidevar = document.querySelector('.sidebar');
+        sidevar.style.display = 'none'
+      }
+    </script>
+  </div>
+</body>
+
+</html>
